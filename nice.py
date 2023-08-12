@@ -53,5 +53,4 @@ async def waifu(ctx: lightbulb.Context) -> None:
         waifu_random = r_waifu['images'][0]['url']
         await ctx.respond(waifu_random)
 
-
 bot.run()
